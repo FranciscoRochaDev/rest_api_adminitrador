@@ -1,0 +1,20 @@
+{
+  "name": "rest_api_node",
+  "version": "1.0.0",
+  "description": "REST API's con Express y TypeScript",
+  "homepage": "https://github.com/FranciscoRochaDev/rest_api_adminitrador#readme",
+  "bugs": {
+    "url": "https://github.com/FranciscoRochaDev/rest_api_adminitrador/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranciscoRochaDev/rest_api_adminitrador.git"
+  },
+  "license": "ISC",
+  "author": "francisco rocha",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
