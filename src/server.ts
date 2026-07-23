@@ -13,14 +13,18 @@ async function connectDB() {
         console.log(error)
         console.log(colors.red('Error al conectar la BD'))
     }
-    
+
 }
 
 connectDB()
+
+// Instacia de Express
 const server = express()
 
+// Leer Datos de Formularios
+server.use(express.json())
+
+// URL DE LAS RUTAS
 server.use('/api/products', router)
 
 export default server
-
-
