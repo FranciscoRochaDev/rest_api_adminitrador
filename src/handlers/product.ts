@@ -12,6 +12,7 @@ export const getProduct = async (req: Request, res: Response) => {
         res.json({ data: products })
     } catch (error) {
         console.error(error)
+        res.status(500).json({ error: 'Error al obtener los productos' })
     }
 
 }
@@ -32,6 +33,7 @@ export const getProductById = async (req: Request, res: Response) => {
         res.json({ data: products })
     } catch (error) {
         console.error(error)
+        res.status(500).json({ error: 'Error al obtener el producto' })
     }
 
 }
